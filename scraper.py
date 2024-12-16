@@ -60,7 +60,7 @@ def fetch_player_links() -> List[Dict[str, str]]:
 # Example usage:
 
 players = fetch_player_links()
-for player in players[:5]:  # Print first 5 players
+for player in players[:15]:  # Print first 5 players
     print(f"Name: {player['name']}")
     print(f"URL: {player['url']}")
     print(f"Active: {player['is_active']}")
